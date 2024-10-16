@@ -3,8 +3,8 @@
     <meta id="studioUploadedBy">sasboot</meta>
     <meta id="studioUploaded">1729087199353</meta>
     <meta id="studioModifiedBy">sasboot</meta>
-    <meta id="studioModified">1729087888937</meta>
-    <meta id="layout">{"cq1":{"ModelReader":{"x":-290,"y":405},"Score":{"x":-290,"y":530},"Score1":{"x":125,"y":-25},"Source":{"x":-50,"y":405},"Source1":{"x":205,"y":-265}}}</meta>
+    <meta id="studioModified">1729088042242</meta>
+    <meta id="layout">{"cq1":{"ModelReader":{"x":-290,"y":405},"Score":{"x":-290,"y":530},"Source":{"x":-50,"y":405}}}</meta>
   </metadata>
   <contqueries>
     <contquery name="cq1" trace="Score">
@@ -67,7 +67,7 @@
           <schema>
             <fields>
               <field name="id" type="int64" key="true"/>
-              <field name="New_field_0" type="string"/>
+              <field name="x1" type="string"/>
               <field name="New_field_1" type="string"/>
               <field name="New_field_2" type="string"/>
               <field name="New_field_3" type="string"/>
@@ -101,7 +101,6 @@
             <offline model-type="astore">
               <input-map>
                 <properties>
-                  <property name="x1"><![CDATA[New_field_0]]></property>
                   <property name="x2"><![CDATA[New_field_1]]></property>
                 </properties>
               </input-map>
@@ -124,36 +123,10 @@
             </connector>
           </connectors>
         </window-score>
-        <window-source name="Source1">
-          <schema>
-            <fields>
-              <field name="demo" type="string"/>
-            </fields>
-          </schema>
-        </window-source>
-        <window-score name="Score1">
-          <schema>
-            <fields>
-              <field name="_SVDDDISTANCE_" type="double"/>
-              <field name="_SVDDSCORE_" type="double"/>
-            </fields>
-          </schema>
-          <models>
-            <offline model-type="astore">
-              <output-map>
-                <properties>
-                  <property name="_SVDDDISTANCE_"><![CDATA[_SVDDDISTANCE_]]></property>
-                  <property name="_SVDDSCORE_"><![CDATA[_SVDDSCORE_]]></property>
-                </properties>
-              </output-map>
-            </offline>
-          </models>
-        </window-score>
       </windows>
       <edges>
         <edge source="Source" target="Score" role="data"/>
         <edge source="ModelReader" target="Score" role="model"/>
-        <edge source="Source1" target="Score1" role="data"/>
       </edges>
     </contquery>
   </contqueries>
