@@ -3,8 +3,8 @@
     <meta id="studioUploadedBy">sasboot</meta>
     <meta id="studioUploaded">1729087199353</meta>
     <meta id="studioModifiedBy">sasboot</meta>
-    <meta id="studioModified">1729088042242</meta>
-    <meta id="layout">{"cq1":{"ModelReader":{"x":-290,"y":405},"Score":{"x":-290,"y":530},"Source":{"x":-50,"y":405}}}</meta>
+    <meta id="studioModified">1729088104384</meta>
+    <meta id="layout">{"cq1":{"ModelReader":{"x":50,"y":50},"Score":{"x":50,"y":175},"Source":{"x":290,"y":50}}}</meta>
   </metadata>
   <contqueries>
     <contquery name="cq1" trace="Score">
@@ -13,7 +13,7 @@
           <schema>
             <fields>
               <field name="id" type="int64" key="true"/>
-              <field name="New_field_0" type="string"/>
+              <field name="x1" type="string"/>
               <field name="New_field_1" type="string"/>
               <field name="New_field_2" type="string"/>
               <field name="New_field_3" type="string"/>
