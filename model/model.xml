@@ -3,7 +3,7 @@
     <meta id="studioUploadedBy">sasboot</meta>
     <meta id="studioUploaded">1729087199353</meta>
     <meta id="studioModifiedBy">sasboot</meta>
-    <meta id="studioModified">1729087737092</meta>
+    <meta id="studioModified">1729087888937</meta>
     <meta id="layout">{"cq1":{"ModelReader":{"x":-290,"y":405},"Score":{"x":-290,"y":530},"Score1":{"x":125,"y":-25},"Source":{"x":-50,"y":405},"Source1":{"x":205,"y":-265}}}</meta>
   </metadata>
   <contqueries>
@@ -99,6 +99,12 @@
           </schema>
           <models>
             <offline model-type="astore">
+              <input-map>
+                <properties>
+                  <property name="x1"><![CDATA[New_field_0]]></property>
+                  <property name="x2"><![CDATA[New_field_1]]></property>
+                </properties>
+              </input-map>
               <output-map>
                 <properties>
                   <property name="_SVDDDISTANCE_"><![CDATA[_SVDDDISTANCE_]]></property>
